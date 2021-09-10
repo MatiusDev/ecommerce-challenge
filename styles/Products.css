@@ -1,0 +1,35 @@
+.products {
+  margin: 30px auto 0;
+  width: 90%;
+  min-height: calc(100vh - 221px);
+}
+
+.products_container {
+  width: 100%;
+  display: flex;
+}
+
+.products_menu ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.products_menu_item {
+  padding: 5px 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.products_menu_item:hover,
+.products_menu_item.active {
+  color: #4282d2
+}
+
+.products_list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
